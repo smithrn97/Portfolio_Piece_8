@@ -1,0 +1,83 @@
+---
+title: "Presentation of Projects Over the Semester"
+author: "Rebecca Smith"
+date: "4/26/2021"
+output: powerpoint_presentation
+reference_doc: template.pptx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Over the semester...
+ 
+ 
+I played with a lot of political data. I never really had a goal in mind, I just wanted to see what was out there. I found a few guided tutorials and some exploratory analyses to build from, so here's a couple of cool things I came up with. 
+
+
+## Analyzing Data from Pew's 2017 Global Attitudes Survey
+
+For one of my pieces, I used data from the Pew Research Center's spring 2017 Global Attitudes Survey, a poll that asks respondents in multiple countries about issues ranging from politics to economic conditions. 
+
+I was interested in exploring the question, "did people think that children in their country would be better or worse off than their parents?"
+
+
+## Result
+:::::::::::::: {.columns}
+::: {.column}
+Not very uplifting, but it was really cool to take Pew's data and replicate a graph from their article. 
+:::
+::: {.column}
+![Comparing Respondents Beliefs that their Children are Better/Worse off By Country](Rplot_pp3.png)
+:::
+::::::::::::::
+
+
+## Polarization in the 115th Congress
+
+I also played around with some data from VoteView.com. One of the bigger pieces of my thesis is about polarization, so I wanted to create some graphics that answered the question, "how polarized were the most recent members of the House of Representatives?[^1]"
+
+[^1]: Recent being as of January 2019.
+
+## Result
+
+:::::::::::::: {.columns}
+::: {.column}
+Figuring out how to do ridge plots was pretty nifty. From this graphic, we know that:
+
+- 1. Republicans started the shift right before Democrats began shifting left.
+
+- 2. Democrats in 2017-19 were more centralized along the spectrum than Republicans.
+:::
+::: {.column}
+![](Rplot.png)
+:::
+::::::::::::::
+
+
+## How Liberal Are (Were) The 2020 Democratic Candidates?
+
+Leaning on ideological scores provided by OnTheIssues.org, I wanted to provide some evidence that the whole distribution of the 2020 Democratic candidates' ideologies were not that different from the positions of those who ran in 2008 or 2016. 
+
+## Result
+
+:::::::::::::: {.columns}
+::: {.column}
+ I followed an awesome tutorial by Elliott Morris[^2] to come up with this graphic that ultimately shows that the 2020 candidates' ideologies are not significantly different than those who came before them. This graphic provides some evidence against the argument that Democrats are more liberal than ever before.
+:::
+::: {.column}
+![](Rplot_pp6.png)
+:::
+::::::::::::::
+
+[^2]: Elliott Morris is a journalist with The Economist.
+
+## Wrapping Up
+
+There's a couple of the graphics I worked towards making in my portfolio pieces. The codes behind them are in my repos if anyone is interested in using similar plots!
+
+![](that'sallfolks.jfif)
+
+
+
